@@ -42,8 +42,8 @@
 # a = 10%3 
 # print (a)
 
-a = 10**2
-print (a)
+# a = 10**2
+# print (a)
 
 
 ## Bonus!
@@ -57,3 +57,21 @@ print (a)
 # i = input("enter a value:")
 # j = input("enter another value:")
 # print ("The remainder of the division of the two values you have entered is", int(i) % int(j))
+
+
+##############################
+
+# 3. Odd or Even
+
+# Write a Python program that checks if a number is odd or even.
+# Use the modulus operator and an if statement.
+
+
+x = 11
+
+result = x%2 == 0
+
+if result:
+    print ("The number is even") 
+else:
+    print ("The number is odd") 
