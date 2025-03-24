@@ -67,11 +67,43 @@
 # Use the modulus operator and an if statement.
 
 
-x = 11
+# x = 11
 
-result = x%2 == 0
+# result = x%2 == 0
 
-if result:
-    print ("The number is even") 
-else:
-    print ("The number is odd") 
+# if result:
+#     print ("The number is even") 
+# else:
+#     print ("The number is odd") 
+
+## Bonus!
+#INCOMPLETE
+
+# x = input("Enter a number")
+
+# result = x%2 == 0
+
+# if result:
+#     print ("The number you have entered is even")
+# else:
+#     print ("The number is odd") 
+
+#####################
+# 4. Compare Two Numbers
+
+# Write a Python program that takes two numbers and prints whether:
+
+# - The first number is greater than the second
+# - The second number is greater than the first
+# - The two numbers are equal
+
+# a = 1
+# b = 2
+
+# print (a > b) 
+# print (b > a)
+# print (a == b)
+
+## Bonus!
+
+x = input ("Enter a number")
