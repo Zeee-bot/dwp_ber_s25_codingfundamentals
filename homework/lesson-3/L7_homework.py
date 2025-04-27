@@ -20,14 +20,17 @@
 shopping_list = []
 
 while (True):
-    item = input(str("Enter a shopping item or 'done' to finish: "))
+    item = input(str("Enter an item or 'done' to finish: "))
     if (item == "done"):
         break
-
     shopping_list.append(item)
-print()    
-print("🛒 Your shopping list :" + str(shopping_list))
+
+print()   
+print("🛒 Your shopping list :")
+    for i in shopping list
+    print(i )
 print()
-print("Total items: " + str(len(shopping_list)))
+print("Total items:" + str(len(shopping_list)))
+print()
 
 
