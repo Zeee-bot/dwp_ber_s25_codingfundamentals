@@ -27,10 +27,14 @@ while (True):
 
 print()   
 print("🛒 Your shopping list :")
-    for i in shopping list
-    print(i )
+print()   
+for i in shopping_list:
+    print(i)
 print()
-print("Total items:" + str(len(shopping_list)))
+print("Total items: " + str(len(shopping_list)))
 print()
 
+
+
+#set : no duplicates
 
