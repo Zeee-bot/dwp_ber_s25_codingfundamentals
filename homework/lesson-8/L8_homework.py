@@ -27,3 +27,18 @@ for k,v in european_cities_info.items():                         # The loop that
 
 print(european_cities_info.keys())
 
+#4. Sort the `european_cities_info` dictionary alphabetically by city (use sorted)
+print(sorted(european_cities_info.keys()))
+
+my_keys = list(european_cities_info.keys()) # ["Berlin", "Spain"]
+my_keys_sorted = sorted(my_keys)
+
+#for k in my_keys: 
+ # print(european_cities_info[k][2])
+
+#5. Safely print the 'Berlin' info from the `european_cities_info` dictionary
+
+print(my_keys_sorted[0])
+
+#6. Safely print the type of 'London' from the `european_cities_info` dictionary
+
