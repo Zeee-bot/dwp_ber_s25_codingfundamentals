@@ -42,5 +42,30 @@ print(my_keys_sorted[0])
 
 #6. Safely print the type of 'London' from the `european_cities_info` dictionary
 
-type("London")
+print(type("London"))
+
+#8. Safely print 'Barcelona' from the `european_cities_info` dictionary or 'Not Found'
+
+if "Barcelona" in "european_cities_info":
+    print("Barcelona")
+else:
+    print("Not Found")
+
+#8. Add new city `("Rome", [2870500, "Pasta", "Colosseum"])`
+
+european_cities_info["Rome"]= [2870500, "Pasta", "Colosseum"]
+print(european_cities_info)
+
+#9. Remove "Madrid" from `european_cities_info`
+
+european_cities_info.pop("Madrid")
+for k in european_cities_info:
+    print(k)
+
+#10. Check to see if Amsterdam is in `european_cities_info` and print whether it is there or not
+if "Amsterdam" in european_cities_info:
+    print ("Amsterdam is in the list")
+else:
+    print ("Amsterdam is not in the list")
+
 
