@@ -42,3 +42,5 @@ print(my_keys_sorted[0])
 
 #6. Safely print the type of 'London' from the `european_cities_info` dictionary
 
+type("London")
+
