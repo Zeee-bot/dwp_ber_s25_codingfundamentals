@@ -79,11 +79,14 @@ print()
 a = 7
 print("The number is", a)
 
-b = a%3
-print(b)
-
-b = a/3
+b = a % 3
 print("The remainder when divided by 3 is", b)
+
+b = a / 3
+print("The number divided by 3 is", b)
+
+c = a ** 3
+print("The number raised to the power 2 is", c)
 
 
 # ```bash
